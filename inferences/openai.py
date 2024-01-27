@@ -81,7 +81,8 @@ print(json_res)
 assistant_message = chat_response.json()["choices"][0]["message"]
 messages.append(assistant_message)
 
-pretty_print_conversation(messages)
+#pretty_print_conversation(messages)
+print(messages)
 
 # Model listing
 # model_list = model_list_request()
